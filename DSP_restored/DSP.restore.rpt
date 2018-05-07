@@ -1,5 +1,5 @@
 Restore Archived Project report for DSP
-Mon Apr 16 08:48:13 2018
+Mon May  7 08:18:30 2018
 Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Mon Apr 16 08:48:13 2018 ;
+; Restore Archived Project Status ; Successful - Mon May  7 08:18:30 2018 ;
 ; Revision Name                   ; DSP                                   ;
 ; Top-level Entity Name           ; main                                  ;
 ; Family                          ; Cyclone IV E                          ;
@@ -47,18 +47,25 @@ agreement for further details.
 +-----------------------------------+
 ; Restore Archived Project Messages ;
 +-----------------------------------+
-Info: Successfully restored '/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/DSP.qar' into the '/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/DSP_restored/' directory
+Info: Successfully restored '/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/git/SE-p2/DSP.qar' into the '/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/git/SE-p2/DSP_restored/' directory
 Info: Generated report 'DSP.restore.rpt'
 Info (23030): Evaluation of Tcl script /opt/altera/quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 22 warnings
     Info: Peak virtual memory: 745 megabytes
-    Info: Processing ended: Mon Apr 16 08:48:13 2018
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Mon May  7 08:18:30 2018
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:01
 
 
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
 +------------------------------------------------+
-; Files Restored                                 ;
+; Files Not Restored                             ;
 +------------------------------------------------+
 ; File Name                                      ;
 +------------------------------------------------+
@@ -84,12 +91,5 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; lpm_mult0.vhd                                  ;
 ; main.bdf                                       ;
 +------------------------------------------------+
-
-
-+--------------------+
-; Files Not Restored ;
-+--------------------+
-; File Name          ;
-+--------------------+
 
 

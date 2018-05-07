@@ -59,6 +59,13 @@ agreement for further details.
 		(text "test" (rect 141 43 155 55)(font "Arial" ))
 		(line (pt 176 48)(pt 160 48)(line_width 1))
 	)
+	(port
+		(pt 176 64)
+		(output)
+		(text "enable12" (rect 0 0 33 12)(font "Arial" ))
+		(text "enable12" (rect 122 59 155 71)(font "Arial" ))
+		(line (pt 176 64)(pt 160 64)(line_width 1))
+	)
 	(parameter
 		"a_int"
 		"436"
