@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for DSP
-Mon May  7 11:47:08 2018
+Mon May 14 11:51:59 2018
 Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
 
 
@@ -114,7 +114,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 4      ;
+; Number detected on machine ; 2      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
@@ -124,7 +124,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; DSP.sdc       ; OK     ; Mon May  7 11:47:06 2018 ;
+; DSP.sdc       ; OK     ; Mon May 14 11:51:50 2018 ;
 +---------------+--------+--------------------------+
 
 
@@ -1811,7 +1811,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
-    Info: Processing started: Mon May  7 11:47:05 2018
+    Info: Processing started: Mon May 14 11:51:47 2018
 Info: Command: quartus_sta DTMF -c DSP
 Info: qsta_default_script.tcl version: #11
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -1878,9 +1878,9 @@ Info (332146): Worst-case minimum pulse width slack is 9.416
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 906 megabytes
-    Info: Processing ended: Mon May  7 11:47:08 2018
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 904 megabytes
+    Info: Processing ended: Mon May 14 11:51:59 2018
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:07
 
 

@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE22F17) Path("/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/DTMF_P2_V0_restored/") File("DSP.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE22F17) Path("/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/git/SE-p2/DTMF_P2_V0_restored/") File("DSP.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
