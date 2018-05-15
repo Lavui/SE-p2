@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DSP
-Mon May 14 11:50:59 2018
+Tue May 15 18:51:40 2018
 Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
 
 
@@ -28,36 +28,36 @@ Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
  20. Parameter Settings for User Entity Instance: BP_v1:inst10
  21. Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult0
  22. Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult3
- 23. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult0
- 24. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult3
- 25. Parameter Settings for Inferred Entity Instance: BP_v1:inst9|lpm_mult:Mult0
- 26. Parameter Settings for Inferred Entity Instance: BP_v1:inst9|lpm_mult:Mult3
- 27. Parameter Settings for Inferred Entity Instance: BP_v1:inst8|lpm_mult:Mult0
- 28. Parameter Settings for Inferred Entity Instance: BP_v1:inst8|lpm_mult:Mult3
- 29. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult0
- 30. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult3
- 31. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult0
- 32. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult3
- 33. Parameter Settings for Inferred Entity Instance: BP_v1:inst5|lpm_mult:Mult0
- 34. Parameter Settings for Inferred Entity Instance: BP_v1:inst5|lpm_mult:Mult3
- 35. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult0
- 36. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult3
- 37. Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult2
- 38. Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult1
- 39. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult2
- 40. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult1
+ 23. Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult2
+ 24. Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult1
+ 25. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult0
+ 26. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult3
+ 27. Parameter Settings for Inferred Entity Instance: BP_v1:inst9|lpm_mult:Mult0
+ 28. Parameter Settings for Inferred Entity Instance: BP_v1:inst9|lpm_mult:Mult3
+ 29. Parameter Settings for Inferred Entity Instance: BP_v1:inst8|lpm_mult:Mult0
+ 30. Parameter Settings for Inferred Entity Instance: BP_v1:inst8|lpm_mult:Mult3
+ 31. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult0
+ 32. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult3
+ 33. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult0
+ 34. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult3
+ 35. Parameter Settings for Inferred Entity Instance: BP_v1:inst5|lpm_mult:Mult0
+ 36. Parameter Settings for Inferred Entity Instance: BP_v1:inst5|lpm_mult:Mult3
+ 37. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult0
+ 38. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult3
+ 39. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult2
+ 40. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult1
  41. Parameter Settings for Inferred Entity Instance: BP_v1:inst9|lpm_mult:Mult2
  42. Parameter Settings for Inferred Entity Instance: BP_v1:inst9|lpm_mult:Mult1
  43. Parameter Settings for Inferred Entity Instance: BP_v1:inst8|lpm_mult:Mult2
  44. Parameter Settings for Inferred Entity Instance: BP_v1:inst8|lpm_mult:Mult1
- 45. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult2
- 46. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult1
- 47. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult2
- 48. Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult1
+ 45. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult2
+ 46. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult1
+ 47. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult2
+ 48. Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult1
  49. Parameter Settings for Inferred Entity Instance: BP_v1:inst5|lpm_mult:Mult2
  50. Parameter Settings for Inferred Entity Instance: BP_v1:inst5|lpm_mult:Mult1
- 51. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult2
- 52. Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult1
+ 51. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult2
+ 52. Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult1
  53. altpll Parameter Settings by Entity Instance
  54. lpm_mult Parameter Settings by Entity Instance
  55. Post-Synthesis Netlist Statistics for Top Partition
@@ -89,7 +89,7 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon May 14 11:50:59 2018      ;
+; Analysis & Synthesis Status        ; Successful - Tue May 15 18:51:40 2018      ;
 ; Quartus II 64-Bit Version          ; 15.0.1 Build 150 06/03/2015 SJ Web Edition ;
 ; Revision Name                      ; DSP                                        ;
 ; Top-level Entity Name              ; main                                       ;
@@ -98,7 +98,7 @@ agreement for further details.
 ;     Total combinational functions  ; 1,605                                      ;
 ;     Dedicated logic registers      ; 306                                        ;
 ; Total registers                    ; 306                                        ;
-; Total pins                         ; 21                                         ;
+; Total pins                         ; 16                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 48                                         ;
@@ -199,7 +199,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 2      ;
+; Number detected on machine ; 4      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
@@ -260,8 +260,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                                             ;                                                                                     ;
 ; Total combinational functions               ; 1605                                                                                ;
 ; Logic element usage by number of LUT inputs ;                                                                                     ;
-;     -- 4 input functions                    ; 433                                                                                 ;
-;     -- 3 input functions                    ; 941                                                                                 ;
+;     -- 4 input functions                    ; 434                                                                                 ;
+;     -- 3 input functions                    ; 940                                                                                 ;
 ;     -- <=2 input functions                  ; 231                                                                                 ;
 ;                                             ;                                                                                     ;
 ; Logic elements by mode                      ;                                                                                     ;
@@ -272,7 +272,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Dedicated logic registers            ; 306                                                                                 ;
 ;     -- I/O registers                        ; 0                                                                                   ;
 ;                                             ;                                                                                     ;
-; I/O pins                                    ; 21                                                                                  ;
+; I/O pins                                    ; 16                                                                                  ;
 ;                                             ;                                                                                     ;
 ; Embedded Multiplier 9-bit elements          ; 48                                                                                  ;
 ;                                             ;                                                                                     ;
@@ -281,8 +281,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                                             ;                                                                                     ;
 ; Maximum fan-out node                        ; altpll0:inst|altpll:altpll_component|altpll0_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 308                                                                                 ;
-; Total fan-out                               ; 6703                                                                                ;
-; Average fan-out                             ; 3.35                                                                                ;
+; Total fan-out                               ; 6694                                                                                ;
+; Average fan-out                             ; 3.36                                                                                ;
 +---------------------------------------------+-------------------------------------------------------------------------------------+
 
 
@@ -291,7 +291,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                       ; Library Name ;
 +---------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |main                                             ; 1605 (1)          ; 306 (0)      ; 0           ; 48           ; 0       ; 24        ; 21   ; 0            ; |main                                                                                                                                     ; work         ;
+; |main                                             ; 1605 (1)          ; 306 (0)      ; 0           ; 48           ; 0       ; 24        ; 16   ; 0            ; |main                                                                                                                                     ; work         ;
 ;    |ADC:inst2|                                    ; 21 (21)           ; 20 (20)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ADC:inst2                                                                                                                           ; work         ;
 ;    |BP_v1:inst10|                                 ; 197 (136)         ; 41 (41)      ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |main|BP_v1:inst10                                                                                                                        ; work         ;
 ;       |lpm_mult:Mult0|                            ; 61 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|BP_v1:inst10|lpm_mult:Mult0                                                                                                         ; work         ;
@@ -542,10 +542,10 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |main|BP_v1:inst10|n[5]     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |main|BP_v1:inst10|n[2]     ;
 ; 256:1              ; 5 bits    ; 850 LEs       ; 55 LEs               ; 795 LEs                ; Yes        ; |main|capa2:capa2|s_c2[0]   ;
 ; 3:1                ; 192 bits  ; 384 LEs       ; 192 LEs              ; 192 LEs                ; Yes        ; |main|BP_v1:inst7|s1_16[11] ;
-; 3:1                ; 64 bits   ; 128 LEs       ; 64 LEs               ; 64 LEs                 ; Yes        ; |main|BP_v1:inst9|s1_16[4]  ;
+; 3:1                ; 64 bits   ; 128 LEs       ; 64 LEs               ; 64 LEs                 ; Yes        ; |main|BP_v1:inst9|s1_16[3]  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
 
 
@@ -1074,7 +1074,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult0        ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult2         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1083,9 +1083,79 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
 ; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
 ; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 9            ; Untyped             ;
-; LPM_WIDTHP                                     ; 25           ; Untyped             ;
-; LPM_WIDTHR                                     ; 25           ; Untyped             ;
+; LPM_WIDTHB                                     ; 16           ; Untyped             ;
+; LPM_WIDTHP                                     ; 32           ; Untyped             ;
+; LPM_WIDTHR                                     ; 32           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult1         ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16           ; Untyped             ;
+; LPM_WIDTHB                                     ; 16           ; Untyped             ;
+; LPM_WIDTHP                                     ; 32           ; Untyped             ;
+; LPM_WIDTHR                                     ; 32           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult0         ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16           ; Untyped             ;
+; LPM_WIDTHB                                     ; 10           ; Untyped             ;
+; LPM_WIDTHP                                     ; 26           ; Untyped             ;
+; LPM_WIDTHR                                     ; 26           ; Untyped             ;
 ; LPM_WIDTHS                                     ; 1            ; Untyped             ;
 ; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
 ; LPM_PIPELINE                                   ; 0            ; Untyped             ;
@@ -1109,7 +1179,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult3        ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult3         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1284,6 +1354,76 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult0         ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16           ; Untyped             ;
+; LPM_WIDTHB                                     ; 10           ; Untyped             ;
+; LPM_WIDTHP                                     ; 26           ; Untyped             ;
+; LPM_WIDTHR                                     ; 26           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; YES          ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; NOTHING      ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult3         ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16           ; Untyped             ;
+; LPM_WIDTHB                                     ; 16           ; Untyped             ;
+; LPM_WIDTHP                                     ; 32           ; Untyped             ;
+; LPM_WIDTHR                                     ; 32           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult0         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
@@ -1320,76 +1460,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +-------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult3         ;
-+------------------------------------------------+--------------+---------------------+
-; Parameter Name                                 ; Value        ; Type                ;
-+------------------------------------------------+--------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 16           ; Untyped             ;
-; LPM_WIDTHP                                     ; 32           ; Untyped             ;
-; LPM_WIDTHR                                     ; 32           ; Untyped             ;
-; LPM_WIDTHS                                     ; 1            ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
-; LPM_PIPELINE                                   ; 0            ; Untyped             ;
-; LATENCY                                        ; 0            ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
-; USE_EAB                                        ; OFF          ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
-+------------------------------------------------+--------------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult0         ;
-+------------------------------------------------+--------------+---------------------+
-; Parameter Name                                 ; Value        ; Type                ;
-+------------------------------------------------+--------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 10           ; Untyped             ;
-; LPM_WIDTHP                                     ; 26           ; Untyped             ;
-; LPM_WIDTHR                                     ; 26           ; Untyped             ;
-; LPM_WIDTHS                                     ; 1            ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
-; LPM_PIPELINE                                   ; 0            ; Untyped             ;
-; LATENCY                                        ; 0            ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; YES          ; Untyped             ;
-; USE_EAB                                        ; OFF          ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
-; CBXI_PARAMETER                                 ; NOTHING      ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
-+------------------------------------------------+--------------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult3         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1494,7 +1564,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult0         ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult0        ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1503,9 +1573,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
 ; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
 ; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 10           ; Untyped             ;
-; LPM_WIDTHP                                     ; 26           ; Untyped             ;
-; LPM_WIDTHR                                     ; 26           ; Untyped             ;
+; LPM_WIDTHB                                     ; 9            ; Untyped             ;
+; LPM_WIDTHP                                     ; 25           ; Untyped             ;
+; LPM_WIDTHR                                     ; 25           ; Untyped             ;
 ; LPM_WIDTHS                                     ; 1            ; Untyped             ;
 ; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
 ; LPM_PIPELINE                                   ; 0            ; Untyped             ;
@@ -1529,7 +1599,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult3         ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult3        ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1564,7 +1634,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult2         ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult2         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1599,77 +1669,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst3|lpm_mult:Mult1         ;
-+------------------------------------------------+--------------+---------------------+
-; Parameter Name                                 ; Value        ; Type                ;
-+------------------------------------------------+--------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 16           ; Untyped             ;
-; LPM_WIDTHP                                     ; 32           ; Untyped             ;
-; LPM_WIDTHR                                     ; 32           ; Untyped             ;
-; LPM_WIDTHS                                     ; 1            ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
-; LPM_PIPELINE                                   ; 0            ; Untyped             ;
-; LATENCY                                        ; 0            ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
-; USE_EAB                                        ; OFF          ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
-+------------------------------------------------+--------------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult2        ;
-+------------------------------------------------+--------------+---------------------+
-; Parameter Name                                 ; Value        ; Type                ;
-+------------------------------------------------+--------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 16           ; Untyped             ;
-; LPM_WIDTHP                                     ; 32           ; Untyped             ;
-; LPM_WIDTHR                                     ; 32           ; Untyped             ;
-; LPM_WIDTHS                                     ; 1            ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
-; LPM_PIPELINE                                   ; 0            ; Untyped             ;
-; LATENCY                                        ; 0            ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
-; USE_EAB                                        ; OFF          ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
-+------------------------------------------------+--------------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult1        ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult1         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -1844,6 +1844,76 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult2         ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16           ; Untyped             ;
+; LPM_WIDTHB                                     ; 16           ; Untyped             ;
+; LPM_WIDTHP                                     ; 32           ; Untyped             ;
+; LPM_WIDTHR                                     ; 32           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult1         ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16           ; Untyped             ;
+; LPM_WIDTHB                                     ; 16           ; Untyped             ;
+; LPM_WIDTHP                                     ; 32           ; Untyped             ;
+; LPM_WIDTHR                                     ; 32           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult2         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
@@ -1880,76 +1950,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +-------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BP_v1:inst7|lpm_mult:Mult1         ;
-+------------------------------------------------+--------------+---------------------+
-; Parameter Name                                 ; Value        ; Type                ;
-+------------------------------------------------+--------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 16           ; Untyped             ;
-; LPM_WIDTHP                                     ; 32           ; Untyped             ;
-; LPM_WIDTHR                                     ; 32           ; Untyped             ;
-; LPM_WIDTHS                                     ; 1            ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
-; LPM_PIPELINE                                   ; 0            ; Untyped             ;
-; LATENCY                                        ; 0            ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
-; USE_EAB                                        ; OFF          ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
-+------------------------------------------------+--------------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult2         ;
-+------------------------------------------------+--------------+---------------------+
-; Parameter Name                                 ; Value        ; Type                ;
-+------------------------------------------------+--------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 16           ; Untyped             ;
-; LPM_WIDTHB                                     ; 16           ; Untyped             ;
-; LPM_WIDTHP                                     ; 32           ; Untyped             ;
-; LPM_WIDTHR                                     ; 32           ; Untyped             ;
-; LPM_WIDTHS                                     ; 1            ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED       ; Untyped             ;
-; LPM_PIPELINE                                   ; 0            ; Untyped             ;
-; LATENCY                                        ; 0            ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
-; USE_EAB                                        ; OFF          ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5            ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_36t     ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
-+------------------------------------------------+--------------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst6|lpm_mult:Mult1         ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -2054,7 +2054,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult2         ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult2        ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -2089,7 +2089,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BP_v1:inst4|lpm_mult:Mult1         ;
+; Parameter Settings for Inferred Entity Instance: BP_v1:inst10|lpm_mult:Mult1        ;
 +------------------------------------------------+--------------+---------------------+
 ; Parameter Name                                 ; Value        ; Type                ;
 +------------------------------------------------+--------------+---------------------+
@@ -2168,10 +2168,32 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult0 ;
+; Entity Instance                       ; BP_v1:inst3|lpm_mult:Mult2  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 9                           ;
-;     -- LPM_WIDTHP                     ; 25                          ;
+;     -- LPM_WIDTHB                     ; 16                          ;
+;     -- LPM_WIDTHP                     ; 32                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
+;     -- USE_EAB                        ; OFF                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
+; Entity Instance                       ; BP_v1:inst3|lpm_mult:Mult1  ;
+;     -- LPM_WIDTHA                     ; 16                          ;
+;     -- LPM_WIDTHB                     ; 16                          ;
+;     -- LPM_WIDTHP                     ; 32                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
+;     -- USE_EAB                        ; OFF                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
+; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult0  ;
+;     -- LPM_WIDTHA                     ; 16                          ;
+;     -- LPM_WIDTHB                     ; 10                          ;
+;     -- LPM_WIDTHP                     ; 26                          ;
 ;     -- LPM_REPRESENTATION             ; SIGNED                      ;
 ;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
 ;     -- INPUT_B_IS_CONSTANT            ; YES                         ;
@@ -2179,7 +2201,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult3 ;
+; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult3  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2234,6 +2256,28 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
+; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult0  ;
+;     -- LPM_WIDTHA                     ; 16                          ;
+;     -- LPM_WIDTHB                     ; 10                          ;
+;     -- LPM_WIDTHP                     ; 26                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
+;     -- INPUT_B_IS_CONSTANT            ; YES                         ;
+;     -- USE_EAB                        ; OFF                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
+; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult3  ;
+;     -- LPM_WIDTHA                     ; 16                          ;
+;     -- LPM_WIDTHB                     ; 16                          ;
+;     -- LPM_WIDTHP                     ; 32                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
+;     -- USE_EAB                        ; OFF                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
 ; Entity Instance                       ; BP_v1:inst7|lpm_mult:Mult0  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 10                          ;
@@ -2246,28 +2290,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
 ; Entity Instance                       ; BP_v1:inst7|lpm_mult:Mult3  ;
-;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 16                          ;
-;     -- LPM_WIDTHP                     ; 32                          ;
-;     -- LPM_REPRESENTATION             ; SIGNED                      ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
-;     -- USE_EAB                        ; OFF                         ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult0  ;
-;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 10                          ;
-;     -- LPM_WIDTHP                     ; 26                          ;
-;     -- LPM_REPRESENTATION             ; SIGNED                      ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
-;     -- INPUT_B_IS_CONSTANT            ; YES                         ;
-;     -- USE_EAB                        ; OFF                         ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult3  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2300,10 +2322,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult0  ;
+; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult0 ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 10                          ;
-;     -- LPM_WIDTHP                     ; 26                          ;
+;     -- LPM_WIDTHB                     ; 9                           ;
+;     -- LPM_WIDTHP                     ; 25                          ;
 ;     -- LPM_REPRESENTATION             ; SIGNED                      ;
 ;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
 ;     -- INPUT_B_IS_CONSTANT            ; YES                         ;
@@ -2311,7 +2333,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult3  ;
+; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult3 ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2322,7 +2344,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst3|lpm_mult:Mult2  ;
+; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult2  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2333,29 +2355,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst3|lpm_mult:Mult1  ;
-;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 16                          ;
-;     -- LPM_WIDTHP                     ; 32                          ;
-;     -- LPM_REPRESENTATION             ; SIGNED                      ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
-;     -- USE_EAB                        ; OFF                         ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult2 ;
-;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 16                          ;
-;     -- LPM_WIDTHP                     ; 32                          ;
-;     -- LPM_REPRESENTATION             ; SIGNED                      ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
-;     -- USE_EAB                        ; OFF                         ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult1 ;
+; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult1  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2410,6 +2410,28 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
+; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult2  ;
+;     -- LPM_WIDTHA                     ; 16                          ;
+;     -- LPM_WIDTHB                     ; 16                          ;
+;     -- LPM_WIDTHP                     ; 32                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
+;     -- USE_EAB                        ; OFF                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
+; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult1  ;
+;     -- LPM_WIDTHA                     ; 16                          ;
+;     -- LPM_WIDTHB                     ; 16                          ;
+;     -- LPM_WIDTHP                     ; 32                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
+;     -- USE_EAB                        ; OFF                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
 ; Entity Instance                       ; BP_v1:inst7|lpm_mult:Mult2  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
@@ -2422,28 +2444,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
 ; Entity Instance                       ; BP_v1:inst7|lpm_mult:Mult1  ;
-;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 16                          ;
-;     -- LPM_WIDTHP                     ; 32                          ;
-;     -- LPM_REPRESENTATION             ; SIGNED                      ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
-;     -- USE_EAB                        ; OFF                         ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult2  ;
-;     -- LPM_WIDTHA                     ; 16                          ;
-;     -- LPM_WIDTHB                     ; 16                          ;
-;     -- LPM_WIDTHP                     ; 32                          ;
-;     -- LPM_REPRESENTATION             ; SIGNED                      ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                          ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                          ;
-;     -- USE_EAB                        ; OFF                         ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst6|lpm_mult:Mult1  ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2476,7 +2476,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult2  ;
+; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult2 ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2487,7 +2487,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                        ;
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                          ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                          ;
-; Entity Instance                       ; BP_v1:inst4|lpm_mult:Mult1  ;
+; Entity Instance                       ; BP_v1:inst10|lpm_mult:Mult1 ;
 ;     -- LPM_WIDTHA                     ; 16                          ;
 ;     -- LPM_WIDTHB                     ; 16                          ;
 ;     -- LPM_WIDTHP                     ; 32                          ;
@@ -2506,7 +2506,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 21                          ;
+; boundary_port         ; 16                          ;
 ; cycloneiii_ff         ; 306                         ;
 ;     ENA               ; 166                         ;
 ;     ENA SLD           ; 128                         ;
@@ -2519,14 +2519,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;         0 data inputs ; 17                          ;
 ;         1 data inputs ; 19                          ;
 ;         2 data inputs ; 62                          ;
-;         3 data inputs ; 52                          ;
-;         4 data inputs ; 433                         ;
+;         3 data inputs ; 51                          ;
+;         4 data inputs ; 434                         ;
 ; cycloneiii_mac_mult   ; 24                          ;
 ; cycloneiii_mac_out    ; 24                          ;
 ; cycloneiii_pll        ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 10.70                       ;
-; Average LUT depth     ; 5.33                        ;
+; Max LUT depth         ; 9.10                        ;
+; Average LUT depth     ; 5.29                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2535,7 +2535,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:12     ;
+; Top            ; 00:00:05     ;
 +----------------+--------------+
 
 
@@ -2545,7 +2545,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
-    Info: Processing started: Mon May 14 11:50:21 2018
+    Info: Processing started: Tue May 15 18:51:22 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DTMF -c DSP
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file capa_2.vhd
@@ -2568,6 +2568,9 @@ Info (12021): Found 2 design units, including 1 entities, in source file capa2.v
 Info (12021): Found 2 design units, including 1 entities, in source file capa3.vhd
     Info (12022): Found design unit 1: capa3-arq
     Info (12023): Found entity 1: capa3
+Info (12021): Found 1 design units, including 1 entities, in source file main_c2.bdf
+    Info (12023): Found entity 1: main_c2
+Warning (12019): Can't analyze file -- file capa2_2.vhd is missing
 Info (12127): Elaborating entity "main" for the top level hierarchy
 Info (12128): Elaborating entity "ADC" for hierarchy "ADC:inst2"
 Warning (12125): Using design file altpll0.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
@@ -2662,36 +2665,36 @@ Warning (10492): VHDL Process Statement warning at BP_v1.vhd(55): signal "clk_en
 Info (278001): Inferred 32 megafunctions from design logic
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst3|Mult0"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst3|Mult3"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult0"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult3"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst3|Mult2"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst3|Mult1"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult3"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst9|Mult0"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst9|Mult3"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst8|Mult0"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst8|Mult3"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult0"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult3"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult0"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult3"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult0"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult3"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst4|Mult0"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst4|Mult3"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst3|Mult2"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst3|Mult1"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult2"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult1"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult3"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult3"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult3"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult2"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult1"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst9|Mult2"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst9|Mult1"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst8|Mult2"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst8|Mult1"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult2"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult1"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult2"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst6|Mult1"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult2"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult1"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst4|Mult2"
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst4|Mult1"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult2"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst7|Mult1"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult2"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst5|Mult1"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult2"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "BP_v1:inst10|Mult1"
 Info (12130): Elaborated megafunction instantiation "BP_v1:inst3|lpm_mult:Mult0"
 Info (12133): Instantiated megafunction "BP_v1:inst3|lpm_mult:Mult0" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHA" = "16"
@@ -2729,62 +2732,16 @@ Info (12133): Instantiated megafunction "BP_v1:inst3|lpm_mult:Mult3" with the fo
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_36t.tdf
     Info (12023): Found entity 1: mult_36t
-Info (12130): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12133): Instantiated megafunction "BP_v1:inst10|lpm_mult:Mult0" with the following parameter:
+Info (12130): Elaborated megafunction instantiation "BP_v1:inst3|lpm_mult:Mult2"
+Info (12133): Instantiated megafunction "BP_v1:inst3|lpm_mult:Mult2" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHA" = "16"
-    Info (12134): Parameter "LPM_WIDTHB" = "9"
-    Info (12134): Parameter "LPM_WIDTHP" = "25"
-    Info (12134): Parameter "LPM_WIDTHR" = "25"
+    Info (12134): Parameter "LPM_WIDTHB" = "16"
+    Info (12134): Parameter "LPM_WIDTHP" = "32"
+    Info (12134): Parameter "LPM_WIDTHR" = "32"
     Info (12134): Parameter "LPM_WIDTHS" = "1"
     Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
     Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
-    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|multcore:mult_core", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_dkh.tdf
-    Info (12023): Found entity 1: add_sub_dkh
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_j9h.tdf
-    Info (12023): Found entity 1: add_sub_j9h
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_hkh.tdf
-    Info (12023): Found entity 1: add_sub_hkh
-Info (12131): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
-Info (12130): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
-Info (12133): Instantiated megafunction "BP_v1:inst9|lpm_mult:Mult0" with the following parameter:
-    Info (12134): Parameter "LPM_WIDTHA" = "16"
-    Info (12134): Parameter "LPM_WIDTHB" = "9"
-    Info (12134): Parameter "LPM_WIDTHP" = "25"
-    Info (12134): Parameter "LPM_WIDTHR" = "25"
-    Info (12134): Parameter "LPM_WIDTHS" = "1"
-    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
-    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
-    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12130): Elaborated megafunction instantiation "BP_v1:inst8|lpm_mult:Mult0"
-Info (12133): Instantiated megafunction "BP_v1:inst8|lpm_mult:Mult0" with the following parameter:
-    Info (12134): Parameter "LPM_WIDTHA" = "16"
-    Info (12134): Parameter "LPM_WIDTHB" = "10"
-    Info (12134): Parameter "LPM_WIDTHP" = "26"
-    Info (12134): Parameter "LPM_WIDTHR" = "26"
-    Info (12134): Parameter "LPM_WIDTHS" = "1"
-    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
-    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
-    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12130): Elaborated megafunction instantiation "BP_v1:inst7|lpm_mult:Mult0"
-Info (12133): Instantiated megafunction "BP_v1:inst7|lpm_mult:Mult0" with the following parameter:
-    Info (12134): Parameter "LPM_WIDTHA" = "16"
-    Info (12134): Parameter "LPM_WIDTHB" = "10"
-    Info (12134): Parameter "LPM_WIDTHP" = "26"
-    Info (12134): Parameter "LPM_WIDTHR" = "26"
-    Info (12134): Parameter "LPM_WIDTHS" = "1"
-    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
-    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12130): Elaborated megafunction instantiation "BP_v1:inst6|lpm_mult:Mult0"
 Info (12133): Instantiated megafunction "BP_v1:inst6|lpm_mult:Mult0" with the following parameter:
@@ -2797,8 +2754,32 @@ Info (12133): Instantiated megafunction "BP_v1:inst6|lpm_mult:Mult0" with the fo
     Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
     Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12130): Elaborated megafunction instantiation "BP_v1:inst5|lpm_mult:Mult0"
-Info (12133): Instantiated megafunction "BP_v1:inst5|lpm_mult:Mult0" with the following parameter:
+Info (12130): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "BP_v1:inst9|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "9"
+    Info (12134): Parameter "LPM_WIDTHP" = "25"
+    Info (12134): Parameter "LPM_WIDTHR" = "25"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|multcore:mult_core", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_dkh.tdf
+    Info (12023): Found entity 1: add_sub_dkh
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_j9h.tdf
+    Info (12023): Found entity 1: add_sub_j9h
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_hkh.tdf
+    Info (12023): Found entity 1: add_sub_hkh
+Info (12131): Elaborated megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "BP_v1:inst9|lpm_mult:Mult0"
+Info (12130): Elaborated megafunction instantiation "BP_v1:inst8|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "BP_v1:inst8|lpm_mult:Mult0" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHA" = "16"
     Info (12134): Parameter "LPM_WIDTHB" = "10"
     Info (12134): Parameter "LPM_WIDTHP" = "26"
@@ -2819,32 +2800,54 @@ Info (12133): Instantiated megafunction "BP_v1:inst4|lpm_mult:Mult0" with the fo
     Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
     Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12130): Elaborated megafunction instantiation "BP_v1:inst3|lpm_mult:Mult2"
-Info (12133): Instantiated megafunction "BP_v1:inst3|lpm_mult:Mult2" with the following parameter:
+Info (12130): Elaborated megafunction instantiation "BP_v1:inst7|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "BP_v1:inst7|lpm_mult:Mult0" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHA" = "16"
-    Info (12134): Parameter "LPM_WIDTHB" = "16"
-    Info (12134): Parameter "LPM_WIDTHP" = "32"
-    Info (12134): Parameter "LPM_WIDTHR" = "32"
+    Info (12134): Parameter "LPM_WIDTHB" = "10"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
     Info (12134): Parameter "LPM_WIDTHS" = "1"
     Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
     Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12130): Elaborated megafunction instantiation "BP_v1:inst5|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "BP_v1:inst5|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "10"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12130): Elaborated megafunction instantiation "BP_v1:inst10|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "BP_v1:inst10|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "9"
+    Info (12134): Parameter "LPM_WIDTHP" = "25"
+    Info (12134): Parameter "LPM_WIDTHR" = "25"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "ADC_SADDR" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1688 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1683 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 19 output pins
+    Info (21059): Implemented 14 output pins
     Info (21061): Implemented 1618 logic cells
     Info (21065): Implemented 1 PLLs
     Info (21062): Implemented 48 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 18 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 19 warnings
     Info: Peak virtual memory: 1081 megabytes
-    Info: Processing ended: Mon May 14 11:50:59 2018
-    Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:00:45
+    Info: Processing ended: Tue May 15 18:51:40 2018
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:30
 
 

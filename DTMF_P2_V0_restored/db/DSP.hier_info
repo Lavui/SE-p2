@@ -12,14 +12,9 @@ GPIO_23 <= capa3:inst14.bc1
 GPIO_25 <= capa3:inst14.bc2
 GPIO_27 <= capa3:inst14.bc3
 GPIO_29 <= capa3:inst14.enable3M
-LED[0] <= test_1.DB_MAX_OUTPUT_PORT_TYPE
-LED[1] <= test_2.DB_MAX_OUTPUT_PORT_TYPE
-LED[2] <= test_3.DB_MAX_OUTPUT_PORT_TYPE
-LED[3] <= test_4.DB_MAX_OUTPUT_PORT_TYPE
-LED[4] <= test_5.DB_MAX_OUTPUT_PORT_TYPE
-LED[5] <= test_6.DB_MAX_OUTPUT_PORT_TYPE
-LED[6] <= test_7.DB_MAX_OUTPUT_PORT_TYPE
-LED[7] <= test_8.DB_MAX_OUTPUT_PORT_TYPE
+LED[0] <= BP_v1:inst3.enable12
+LED[1] <= capa2:capa2.enable23
+LED[2] <= capa3:inst14.enable3M
 
 
 |main|ADC:inst2

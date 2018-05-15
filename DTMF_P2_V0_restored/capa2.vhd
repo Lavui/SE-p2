@@ -16,7 +16,7 @@ end entity capa2;
 
 architecture arq of capa2 is
 	signal freq : std_logic_vector(7 downto 0);
-	signal enb : std_logic;
+	signal enb : std_logic := '0';
 
 begin 
 	freq(0) <= l0;
