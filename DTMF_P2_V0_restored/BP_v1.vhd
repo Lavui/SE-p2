@@ -8,7 +8,7 @@ use ieee.numeric_std.all;
 use ieee.math_real.all;
 
 entity BP_v1 is
-generic (a_int :  integer range -32768 to 32767 := 436);
+generic (a_int :  integer range -32768 to 32767 := 437);
 port (clk    : in  std_logic;
       clk_en : in  std_logic;
       x      : in  std_logic_vector(7  downto 0);
@@ -53,21 +53,20 @@ begin
 		   process(clk)
            begin
 			   if rising_edge(clk) and clk_en = '1' then
-					enable12 <= '0';
 					if n = 0 then
+						enable12 <= '0';
 						s1_16 <= resize(x8,16);
 						s2_16 <= to_signed(0,16);
 						n <= n+1;
-					elsif n = 205 then
+					elsif n = 195 then
 						n <= to_unsigned(0,8);
 						X_dft <= std_logic_vector(X_32);
-							enable12 <= '1';
-							if X_32 > threshold then
-								test <= '1';
-							else
-								test <= '0';
-							end if;
-							
+						enable12 <= '1';
+						if X_32 > threshold then
+							test <= '1';
+						else
+							test <= '0';
+						end if;
 					else
 						n <= n+1;
 						s1_16 <= sn_16;

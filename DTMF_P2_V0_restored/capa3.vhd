@@ -20,19 +20,31 @@ begin
 		   process(clk)
            begin
 			  if rising_edge(clk) and clk_en='1' then
-					enable3M <= '0';
-					case estat is
-						when '0' =>
-							if simbol /= "10000"	then
+--					case estat is
+--						when '1' =>
+--							if simbol = "10000"	then
+--								estat <= '0';
+--								enable3M <= '0';
+--							end if;
+--						when '0' =>
+--							if simbol /= "10000"	then -- QUAN NO DETECTA SILENCI
+--								caracter <= simbol(3 downto 0);
+--								enable3M <= '1';
+--								estat <= '1';
+--							end if;
+--					end case;
+					if estat = '1' then
+							if simbol = "10000"	then
+								estat <= '0';
+								enable3M <= '0';
+							end if;
+					else -- estat val 0
+							if simbol /= "10000"	then -- QUAN NO DETECTA SILENCI
 								caracter <= simbol(3 downto 0);
 								enable3M <= '1';
 								estat <= '1';
 							end if;
-						when '1' =>
-							if simbol = "10000"	then
-								estat <= '0';
-							end if;
-					end case;
+					end if;
 				end if;
 				bc0<=caracter(0);
 				bc1<=caracter(1);

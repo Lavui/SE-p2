@@ -7,14 +7,11 @@ ADC_CS_N <= ADC:inst2.ADC_CS_N
 GPIO_D5 <= test_1.DB_MAX_OUTPUT_PORT_TYPE
 GPIO_D7 <= clk_2M048.DB_MAX_OUTPUT_PORT_TYPE
 GPIO_D9 <= smpl_ready.DB_MAX_OUTPUT_PORT_TYPE
-GPIO_21 <= capa3:inst14.bc0
-GPIO_23 <= capa3:inst14.bc1
-GPIO_25 <= capa3:inst14.bc2
-GPIO_27 <= capa3:inst14.bc3
-GPIO_29 <= capa3:inst14.enable3M
-LED[0] <= BP_v1:inst3.enable12
-LED[1] <= capa2:capa2.enable23
-LED[2] <= capa3:inst14.enable3M
+GPIO_21 <= capa3:inst13.bc0
+GPIO_23 <= capa3:inst13.bc1
+GPIO_25 <= capa3:inst13.bc2
+GPIO_27 <= capa3:inst13.bc3
+GPIO_29 <= capa3:inst13.enable3M
 
 
 |main|ADC:inst2
@@ -332,19 +329,19 @@ test <= test~reg0.DB_MAX_OUTPUT_PORT_TYPE
 enable12 <= enable12~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|main|capa3:inst14
-clk => estat.CLK
+|main|capa3:inst13
 clk => caracter[0].CLK
 clk => caracter[1].CLK
 clk => caracter[2].CLK
 clk => caracter[3].CLK
 clk => enable3M~reg0.CLK
-clk_en => estat.ENA
+clk => estat.CLK
 clk_en => caracter[0].ENA
 clk_en => caracter[1].ENA
 clk_en => caracter[2].ENA
 clk_en => caracter[3].ENA
 clk_en => enable3M~reg0.ENA
+clk_en => estat.ENA
 simbol[0] => caracter.DATAB
 simbol[0] => Equal0.IN3
 simbol[1] => caracter.DATAB
@@ -361,21 +358,21 @@ bc3 <= caracter[3].DB_MAX_OUTPUT_PORT_TYPE
 enable3M <= enable3M~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|main|capa2:capa2
+|main|capa2:inst12
+clk => enable23~reg0.CLK
 clk => s_c2[0]~reg0.CLK
 clk => s_c2[1]~reg0.CLK
 clk => s_c2[2]~reg0.CLK
 clk => s_c2[3]~reg0.CLK
 clk => s_c2[4]~reg0.CLK
 clk => enb.CLK
-clk => enable23~reg0.CLK
+clk_en => enable23~reg0.ENA
 clk_en => s_c2[0]~reg0.ENA
 clk_en => s_c2[1]~reg0.ENA
 clk_en => s_c2[2]~reg0.ENA
 clk_en => s_c2[3]~reg0.ENA
 clk_en => s_c2[4]~reg0.ENA
 clk_en => enb.ENA
-clk_en => enable23~reg0.ENA
 l0 => Mux0.IN263
 l0 => Mux1.IN263
 l0 => Mux2.IN263

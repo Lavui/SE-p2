@@ -29,10 +29,10 @@ void loop(){
     b1 = digitalRead(bc1); 
     b2 = digitalRead(bc2); 
     b3 = digitalRead(bc3);    
-    Serial.print(b0);
-    Serial.print(b1);
-    Serial.print(b2);
     Serial.print(b3);
+    Serial.print(b2);
+    Serial.print(b1);
+    Serial.print(b0);
     Serial.print("\t");
 
   } 
