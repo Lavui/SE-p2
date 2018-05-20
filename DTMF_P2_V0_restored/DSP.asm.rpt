@@ -1,6 +1,6 @@
 Assembler report for DSP
-Thu May 17 12:11:03 2018
-Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
+Sun May 20 20:14:29 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
@@ -18,27 +18,26 @@ Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus II License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu May 17 12:11:03 2018 ;
+; Assembler Status      ; Successful - Sun May 20 20:14:29 2018 ;
 ; Revision Name         ; DSP                                   ;
 ; Top-level Entity Name ; main                                  ;
 ; Family                ; Cyclone IV E                          ;
@@ -53,13 +52,13 @@ agreement for further details.
 +--------+---------+---------------+
 
 
-+---------------------------+
-; Assembler Generated Files ;
-+---------------------------+
-; File Name                 ;
-+---------------------------+
-; DSP.sof                   ;
-+---------------------------+
++------------------------------------------------------------------------------+
+; Assembler Generated Files                                                    ;
++------------------------------------------------------------------------------+
+; File Name                                                                    ;
++------------------------------------------------------------------------------+
+; /home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DSP.sof ;
++------------------------------------------------------------------------------+
 
 
 +-----------------------------------+
@@ -67,9 +66,8 @@ agreement for further details.
 +----------------+------------------+
 ; Option         ; Setting          ;
 +----------------+------------------+
-; Device         ; EP4CE22F17C6     ;
 ; JTAG usercode  ; 0xFFFFFFFF       ;
-; Checksum       ; 0x0026BF0F       ;
+; Checksum       ; 0x002643D1       ;
 +----------------+------------------+
 
 
@@ -77,16 +75,17 @@ agreement for further details.
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Assembler
-    Info: Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
-    Info: Processing started: Thu May 17 12:11:00 2018
+Info: Running Quartus Prime Assembler
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Sun May 20 20:14:27 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DTMF -c DSP
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 842 megabytes
-    Info: Processing ended: Thu May 17 12:11:03 2018
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 826 megabytes
+    Info: Processing ended: Sun May 20 20:14:29 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

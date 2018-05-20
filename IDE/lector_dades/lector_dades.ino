@@ -1,15 +1,18 @@
 
-const int bc0 = 13;
-const int bc1 = 12;
+const int bc0 = 9;
+const int bc1 = 10;
 const int bc2 = 11;
-const int bc3 = 10;
-const int enableInput = 9;
+const int bc3 = 12;
+const int enableInput = 13;
 
 int enab = 0;
+int lastEnab = 0;
 int b0 = 0;
 int b1 = 0;
 int b2 = 0;
 int b3 = 0;
+int pos;
+const char digits[17]="0123456789ABCD*#";
 
 void setup() {
   Serial.begin(9600);
@@ -24,18 +27,19 @@ void setup() {
 
 void loop(){
   enab = digitalRead(enableInput);
-  if (enab == HIGH) {   
-    b0 = digitalRead(bc0); 
-    b1 = digitalRead(bc1); 
-    b2 = digitalRead(bc2); 
-    b3 = digitalRead(bc3);    
-    Serial.print(b3);
-    Serial.print(b2);
-    Serial.print(b1);
-    Serial.print(b0);
-    Serial.print("\t");
-
-  } 
-  Serial.print(enab);
-  Serial.print("\n");
-}
+  if (lastEnab != enab ) // enab change detected
+    {
+     if (enab == HIGH) //rising edge detected
+     { 
+      b0 = digitalRead(bc0); 
+      b1 = digitalRead(bc1); 
+      b2 = digitalRead(bc2); 
+      b3 = digitalRead(bc3);
+      pos = b3<<3 | b2 << 2 | b1<<1 | b0;
+      
+      Serial.print(digits[pos]);
+     } // end rising edge detected
+    } // end enab change detected
+    lastEnab = enab; // save last enab state
+    //Serial.print("-");
+} // end loop

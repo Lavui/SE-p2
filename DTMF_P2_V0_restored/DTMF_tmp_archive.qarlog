@@ -1,0 +1,28 @@
+Quartus Prime Archive log --	/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DTMF_tmp_archive.qarlog
+
+Archive:	/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DTMF_tmp_archive.qar
+Date:		Sun May 20 21:18:39 2018
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/ADC.vhd
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/BP_v0.vhd
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/BP_v1.vhd
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DSP.qsf
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DSP.sdc
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DSP_assignment_defaults.qdf
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DTMF.qpf
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/altpll0.vhd
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/capa2.vhd
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/capa3.vhd
+/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/main.bdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sun May 20 21:18:40 2018
+Source archive file:	/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/DTMF_tmp_archive.qar
+Archive was extracted into	/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V1/
+		 - successfully.

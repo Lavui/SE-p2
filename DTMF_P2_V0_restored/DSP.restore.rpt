@@ -1,6 +1,6 @@
 Restore Archived Project report for DSP
-Mon Apr 16 09:11:11 2018
-Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
+Fri May 18 10:43:50 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
@@ -17,27 +17,26 @@ Quartus II 64-Bit Version 15.0.1 Build 150 06/03/2015 SJ Web Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus II License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Mon Apr 16 09:11:11 2018 ;
+; Restore Archived Project Status ; Successful - Fri May 18 10:43:50 2018 ;
 ; Revision Name                   ; DSP                                   ;
 ; Top-level Entity Name           ; main                                  ;
 ; Family                          ; Cyclone IV E                          ;
@@ -47,18 +46,25 @@ agreement for further details.
 +-----------------------------------+
 ; Restore Archived Project Messages ;
 +-----------------------------------+
-Info: Successfully restored '/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/DTMF_P2_V0.qar' into the '/home_1/eloi.galan/infoITIC/Q6/SistemesEncastats/DTMF_P2_V0_restored/' directory
+Info: Successfully restored '/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0.qar' into the '/home/jep/Documents/epsem/SE/projecte/codi/SE-p2/DTMF_P2_V0_restored/' directory
 Info: Generated report 'DSP.restore.rpt'
-Info (23030): Evaluation of Tcl script /opt/altera/quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 745 megabytes
-    Info: Processing ended: Mon Apr 16 09:11:11 2018
+Info (23030): Evaluation of Tcl script /opt/intelFPGA_lite/17.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 1056 megabytes
+    Info: Processing ended: Fri May 18 10:43:50 2018
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
 
 
 +------------------------------------------------+
-; Files Restored                                 ;
+; Files Not Restored                             ;
 +------------------------------------------------+
 ; File Name                                      ;
 +------------------------------------------------+
@@ -72,12 +78,5 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; incremental_db/compiled_partitions/DSP.db_info ;
 ; main.bdf                                       ;
 +------------------------------------------------+
-
-
-+--------------------+
-; Files Not Restored ;
-+--------------------+
-; File Name          ;
-+--------------------+
 
 
