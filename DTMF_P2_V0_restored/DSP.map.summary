@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun May 20 20:14:15 2018
-Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Mon May 21 13:49:12 2018
+Quartus II 64-Bit Version : 15.0.1 Build 150 06/03/2015 SJ Web Edition
 Revision Name : DSP
 Top-level Entity Name : main
 Family : Cyclone IV E
-Total logic elements : 1,659
-    Total combinational functions : 1,645
+Total logic elements : 1,642
+    Total combinational functions : 1,628
     Dedicated logic registers : 306
 Total registers : 306
 Total pins : 10

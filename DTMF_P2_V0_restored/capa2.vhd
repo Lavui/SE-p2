@@ -16,7 +16,6 @@ end entity capa2;
 
 architecture arq of capa2 is
 	signal freq : std_logic_vector(7 downto 0);
-	signal enb : std_logic := '0';
    -- signal s_c2: std_logic_vector(4 downto 0);
 	-- signal cont : integer := 0;
 	
@@ -32,32 +31,34 @@ begin
 	freq(7) <= h3;
 		   process(clk)
            begin
-			  if rising_edge(clk) and clk_en = '1' then
-					enb <= '1';
-					case freq is
-						when "00101000" =>   s_c2 <= "00000"; --0
-						when "00010001" =>   s_c2 <= "00001"; --1
-						when "00100001" =>   s_c2 <= "00010"; --2
-						when "01000001" =>   s_c2 <= "00011"; --3	
-						when "00010010" =>   s_c2 <= "00100"; --4
-						when "00100010" =>   s_c2 <= "00101"; --5
-						when "01000010" =>   s_c2 <= "00110"; --6
-						when "00010100" =>   s_c2 <= "00111"; --7
-						when "00100100" =>   s_c2 <= "01000"; --8
-						when "01000100" =>   s_c2 <= "01001"; --9
-						
-						when "10000001" =>   s_c2 <= "01010"; --A
-						when "10000010" =>   s_c2 <= "01011"; --B
-						when "10000100" =>   s_c2 <= "01100"; --C
-						when "10001000" =>   s_c2 <= "01101"; --D
-						
-						when "00011000" =>   s_c2 <= "01110"; --*
-						when "01001000" =>   s_c2 <= "01111"; --#
-						
-						when "00000000" =>   s_c2 <= "10000";--Silenci
-						when others => enb <= '0';
-					end case;
-					enable23 <= enb;
+			  if rising_edge(clk) then
+					enable23 <= '0';
+					if clk_en = '1' then
+						enable23 <= '1';
+						case freq is
+							when "00101000" =>   s_c2 <= "00000"; --0
+							when "00010001" =>   s_c2 <= "00001"; --1
+							when "00100001" =>   s_c2 <= "00010"; --2
+							when "01000001" =>   s_c2 <= "00011"; --3	
+							when "00010010" =>   s_c2 <= "00100"; --4
+							when "00100010" =>   s_c2 <= "00101"; --5
+							when "01000010" =>   s_c2 <= "00110"; --6
+							when "00010100" =>   s_c2 <= "00111"; --7
+							when "00100100" =>   s_c2 <= "01000"; --8
+							when "01000100" =>   s_c2 <= "01001"; --9
+							
+							when "10000001" =>   s_c2 <= "01010"; --A
+							when "10000010" =>   s_c2 <= "01011"; --B
+							when "10000100" =>   s_c2 <= "01100"; --C
+							when "10001000" =>   s_c2 <= "01101"; --D
+							
+							when "00011000" =>   s_c2 <= "01110"; --*
+							when "01001000" =>   s_c2 <= "01111"; --#
+							
+							when "00000000" =>   s_c2 <= "10000";--Silenci
+							when others => enable23 <= '0';
+						end case;
+					end if;
 				end if;
 				--s_c20 <= s_c2(0);
 				--s_c21 <= s_c2(1);
