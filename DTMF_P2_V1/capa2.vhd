@@ -16,7 +16,6 @@ end entity capa2;
 
 architecture arq of capa2 is
 	signal freq : std_logic_vector(7 downto 0);
-	signal enb : std_logic := '0';
    -- signal s_c2: std_logic_vector(4 downto 0);
 	-- signal cont : integer := 0;
 	
@@ -32,8 +31,9 @@ begin
 	freq(7) <= h3;
 		   process(clk)
            begin
-			  if rising_edge(clk) and clk_en = '1' then
-					enb <= '1';
+			  if rising_edge(clk) then
+			    if clk_en = '1' then
+					enable23 <= '1';
 					case freq is
 						when "00101000" =>   s_c2 <= "00000"; --0
 						when "00010001" =>   s_c2 <= "00001"; --1
@@ -55,16 +55,13 @@ begin
 						when "01001000" =>   s_c2 <= "01111"; --#
 						
 						when "00000000" =>   s_c2 <= "10000";--Silenci
-						when others => enb <= '0';
+						when others => enable23 <= '0';
 					end case;
-					enable23 <= enb;
-				end if;
-				--s_c20 <= s_c2(0);
-				--s_c21 <= s_c2(1);
-				--s_c22 <= s_c2(2);
-				--s_c23 <= s_c2(3);
-				--s_c24 <= s_c2(4);
-		   end process;		
+				 else -- of rising edge
+				   enable23 <= '0';
+				 end if; -- end rising edge 	
+				end if; -- end clk
+		     end process;		
 
 end architecture arq;      
       
