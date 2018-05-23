@@ -32,7 +32,7 @@ architecture rtl of BP_v1 is
 	
 	
 	constant a : signed(15 downto 0):=to_signed(a_int,16);
-	constant threshold : signed(31 downto 0):=to_signed(4e6,32);
+	constant threshold : signed(31 downto 0):=to_signed(1e6,32);
 	
 begin 
 		   --input
@@ -52,26 +52,28 @@ begin
 			
 		   process(clk)
            begin
-			   if rising_edge(clk) and clk_en = '1' then
-					if n = 0 then
-						enable12 <= '0';
-						s1_16 <= resize(x8,16);
-						s2_16 <= to_signed(0,16);
-						n <= n+1;
-					elsif n = 195 then
-						n <= to_unsigned(0,8);
-						X_dft <= std_logic_vector(X_32);
-						enable12 <= '1';
-						if X_32 > threshold then
-							test <= '1';
+			   if rising_edge(clk) then
+					enable12 <= '0';
+					if clk_en = '1' then
+						if n = 0 then
+							s1_16 <= resize(x8,16);
+							s2_16 <= to_signed(0,16);
+							n <= n+1;
+						elsif n = 195 then
+							n <= to_unsigned(0,8);
+							X_dft <= std_logic_vector(X_32);
+							enable12 <= '1';
+							if X_32 > threshold then
+								test <= '1';
+							else
+								test <= '0';
+							end if;
 						else
-							test <= '0';
+							n <= n+1;
+							s1_16 <= sn_16;
+							s2_16 <= s1_16;
 						end if;
-					else
-						n <= n+1;
-						s1_16 <= sn_16;
-				      s2_16 <= s1_16;
-					end if;		 
+					end if;
 			   end if;              
 		   end process;		
 

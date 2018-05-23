@@ -18,7 +18,7 @@ architecture arq of capa3 is
 	signal estat: t_estat := S_silenci;
 	signal enb : std_logic := '0';
 begin 	
-		   process(clk,simbol)
+		   process(clk)
            begin
 			  if rising_edge(clk) and clk_en='1' then
 					case estat is
